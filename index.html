@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <img src="/Images/bg.png" id="background-img" alt="" srcset="">
+    <div class="header-container">
+        <div class="logo-container">
+            <div class="logo-circle">RJ</div>
+        </div>
+        <div class="mobile-menu-icon" onclick="toggleMenu()">
+            &#9776; <!-- Unicode hamburger -->
+        </div>
+        <nav class="nav-links" id="navLinks">
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </nav>
+
+    </div>
+    <main>
+        <div id="Introduction">
+            <h1><span class="hand-emoji">🤘</span><span>Hello! I'm </span>Muhammad Umair</h1>
+            <p class="profession">A Front End Developer | Web Developer | Customer Service Representator</p>
+            <p class="experience">with <span class="highlight">1.8+ Years</span> of Experience</p>
+            <button id="resume"><i class="fa fa-download"></i> Resume</button>
+            <button id="hire-me">Hire me</button>
+        </div>
+        <div class="skills-container">
+            <div class="skill-badge skill-node-express">
+                <img src="https://img.icons8.com/color/48/nodejs.png" alt="NodeJS" />
+                <span>Node + ExpressJS</span>
+            </div>
+
+            <div class="skill-badge skill-reactjs">
+                <img src="https://img.icons8.com/officel/48/react.png" alt="ReactJS" />
+                <span>ReactJS</span>
+            </div>
+            <div class="skill-badge skill-tailwind">
+                <img src="https://img.icons8.com/fluency/48/tailwind_css.png" alt="Tailwind CSS" />
+                <span>Tailwind CSS</span>
+            </div>
+            <div class="skill-badge skill-js">
+                <img src="https://img.icons8.com/color/48/javascript--v1.png" alt="JavaScript" />
+                <span>JavaScript</span>
+            </div>
+            <div class="skill-badge skill-mongodb">
+                <img src="https://img.icons8.com/color/48/mongodb.png" alt="MongoDB" />
+                <span>MongoDB</span>
+            </div>
+
+            <div class="skill-badge skill-figma">
+                <img src="https://img.icons8.com/color/48/figma--v1.png" alt="Figma" />
+                <span>Figma</span>
+            </div>
+        </div>
+
+        <div id="circle">
+            <img src="./Images/profile.png" alt="">
+        </div>
+
+        <section id="About">
+            <h2>About Me</h2>
+            <div class="profile-love-container">
+                <div class="profile-picture-container">
+                    <img src="./Images/RJ.jpg" alt="Profile Picture">
+                </div>
+                <div>
+                    <p class="i-love-text">I Love</p>
+                    <div class="interests-container">
+                        <span class="interest-tag">
+                            <img src="./Images/7.png" alt="Music"> Listening to Music
+                        </span>
+                        <span class="interest-tag">
+                            <img src="./Images/8.png" alt="Travelling"> Travelling
+                        </span>
+                        <span class="interest-tag">
+                            <img src="./Images/9.png" alt="Mountains"> Mountains
+                        </span>
+                        <span class="interest-tag">
+                            <img src="./Images/10.png" alt="Money"> Money
+                        </span>
+                        <span class="interest-tag">
+                            <img src="./Images/11.png" alt="Books"> Reading Books
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="stats-container">
+                <div class="stat-box">
+                    <p class="stat-number">1.9+</p>
+                    <p class="stat-label">Years Experience</p>
+                </div>
+                <div class="stat-box">
+                    <p class="stat-number">10+</p>
+                    <p class="stat-label">Project Completed</p>
+                </div>
+            </div>
+            <div id="description">
+                <p>
+                    A passionate Front End Developer with a Master's in Computer Application and over 6 months of
+                    experience in crafting captivating digital experiences. My expertise lies in leveraging cutting-edge
+                    technologies such as ReactJS, NextJS, Apollo GraphQL, Redux, React Query, and various UI frameworks
+                    including Material UI, NextUI, SCSS, Tailwind CSS, Chakra UI, and Bootstrap. I take pride in my
+                    ability to design seamless user interfaces and components that align perfectly with the intended
+                    aesthetic, creating responsive websites that adapt gracefully to any device. My skill set also
+                    extends to proficient API integration, ensuring the seamless flow of data between the front end and
+                    back end. In addition, I am known for writing clean, well-structured code that not only functions
+                    flawlessly but also enhances the overall maintainability of projects. With a track record of
+                    contributing to well-known products like CricTracker, SportsBuzz, and Epiko Market, I am committed
+                    to pushing the boundaries of web development to deliver exceptional digital solutions.
+                </p>
+            </div>
+            <button> Contact Me</button>
+        </section>
+
+        <section class="education-container">
+            <h2 class="education-title">Education</h2>
+            <div class="education-cards">
+                <div class="education-card">
+                    <img src="./Images/date.png" alt="">
+                    <div class="date-badge">2017-2020</div>
+                    <span class="degree-level"><img src="./Images/degree.png" style="width: 30px; height: 20px;"
+                            alt="">Intermediate</span>
+                    <h3 class="degree-title">Industrial Control System </h3>
+                    <span class="degree-type">ICS</span>
+                    <p>Computer Science</p>
+                    <div class="university-info">
+                        <img src="./Images/college.jpeg" style="width: 30px; height: 30px;" alt="VNSGU Logo"
+                            class="university-logo">
+                        <p class="university-name" id="university-name" style="margin-left: 25px;">Gordon College
+                            Rawalpindi</p>
+                    </div>
+                    <p class="location"><img src="./Images/location.png" style="height: 35px; width: 35px;">Rawalpindi,
+                        Punjab, Pakistan</p>
+                </div>
+                <div class="education-card">
+                    <img src="./Images/date.png" alt="">
+                    <div class="date-badge">2020-2022</div>
+                    <span class="degree-level"><img src="./Images/degree.png" style="width: 30px; height: 20px;"
+                            alt="">Undergraduate</span>
+                    <h3 class="degree-title" id="degree-title">Bachelor's Degree </h3>
+                    <span class="degree-type" id="degree-type">BSCS</span>
+                    <p>Bachelor in Software Engineering</p>
+                    <div class="university-info" id="university-info">
+                        <img src="./Images/numl.png" style="width: 75px; height: 75px;" alt="VNSGU Logo"
+                            class="university-logo">
+                        <p class="university-name">National University of Modern Languages</p>
+                    </div>
+                    <p class="location"><img src="./Images/location.png" style="height: 35px; width: 35px;">Islamabad,
+                        Punjab, Pakistan</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience-container" id="experience">
+            <h2 class="experience-header">Experience</h2>
+            <div class="experience-card1">
+                <div class="company-info1">
+                    <img src="./Images/ace.jpg" alt="" id="company-logo1">
+                    <div class="company-name-location1">
+                        <div class="company-name1">Ace BPO. Ltd.</div>
+                        <div class="company-location1">Saddar, Rawalpindi, Pakistan</div>
+                    </div>
+                    <div class="date-range1">August 2022 - November 2023</div>
+                </div>
+                <div class="job-title1">Customer Service Representative</div>
+                <ul class="job-description-points1">
+                    <li>Provided services to customers accurately and efficiently, ensuring compliance with law firms
+                        and solicitors.</li>
+                    <li>Responded to customer requests for products, services, and company information.</li>
+                    <li>Enhanced customer satisfaction by promptly addressing concerns and providing accurate
+                        information.</li>
+                    <li>Handled escalated calls efficiently, finding satisfactory resolutions for both customers and the
+                        company alike.</li>
+                    <li>Resolved customer complaints with empathy, resulting in increased loyalty and repeat business.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="experience-card2">
+                <div class="company-info2">
+                    <img src="./Images/incresco.jpg" alt="" id="company-logo2">
+                    <div class="company-name-location2">
+                        <div class="company-name2">Incresco Digital Solutions</div>
+                        <div class="company-location2">Saidpur Road, Rawalpindi, Pakistan</div>
+                    </div>
+                    <div class="date-range2">August 2024 - December 2024</div>
+                </div>
+                <div class="job-title2">Customer Service Representative, Team Leader</div>
+                <ul class="job-description-points2">
+                    <li>Resolved customer complaints with empathy, resulting in increased loyalty and repeat business.
+                    </li>
+                    <li>Managed high-stress situations effectively, maintaining professionalism under pressure while
+                        resolving disputes or conflicts.</li>
+                    <li>Enhanced customer satisfaction by promptly addressing concerns and providing accurate
+                        information.</li>
+                    <li>Responded to customer requests for products, services, and company information.</li>
+                    <li>Handled escalated calls efficiently, finding satisfactory resolutions for both customers and the
+                        company alike.</li>
+                </ul>
+            </div>
+
+            <div class="experience-card3">
+                <div class="company-info3">
+                    <img src="./Images/teacher.png" alt="" id="company-logo3">
+                    <div class="company-name-location3">
+                        <div class="company-name3">Teacher</div>
+                        <div class="company-location3">Scheme 3, Rawalpindi, Pakistan</div>
+                    </div>
+                    <div class="date-range3">January 2025 - Present</div>
+                </div>
+                <div class="job-title3">Online and Onsite Tutor</div>
+                <ul class="job-description-points3">
+                    <li>Designed and delivered engaging online and onsite lessons tailored to individual student needs.
+                    </li>
+                    <li>Provided personalized academic support in various subjects, ensuring students' understanding and
+                        progress.</li>
+                    <li>Developed lesson plans, assignments, and assessments to track student performance and growth.
+                    </li>
+                    <li>Adapted teaching strategies to accommodate different learning styles and abilities.</li>
+                    <li>Maintained clear communication with students and parents regarding goals, progress, and
+                        feedback.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="certificates-section">
+            <h2 class="section-title">Certificates</h2>
+            <div class="certificate-container">
+
+                <div class="certificate-card">
+                    <div class="card-header">
+                        <img src="./Images/download.png" class="platform-logo" alt="">
+                        <span class="platform">FreeCodeCamp</span>
+                        <span class="icon">📄🏅</span>
+                    </div>
+                    <p class="certificate-title">Front End Developement</p>
+                    <a href="https://www.freecodecamp.org/certification/RJUmair/front-end-development-libraries"
+                        target="_blank">
+                        <button class="view-btn">👁️ View</button>
+                    </a>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="card-header">
+                        <img src="./Images/download.png" class="platform-logo" alt="">
+                        <span class="platform">FreeCodeCamp</span>
+                        <span class="icon">📄🏅</span>
+                    </div>
+                    <p class="certificate-title">Responsive Web Design</p>
+                    <a href="https://freecodecamp.org/certification/RJUmair/responsive-web-design" target="_blank">
+                        <button class="view-btn">👁️ View</button>
+                    </a>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="card-header">
+                        <img src="./Images/simplelearn.png" class="platform-logo" alt="">
+                        <span class="platform custom-platform-simplilearn">Simplilearn</span>
+                        <span class="icon">📄🏅</span>
+                    </div>
+                    <p class="certificate-title">Introduction to MERN Stack Development</p>
+                    <a href="https://simpli-web.app.link/e/OsVPyr999Qb" target="_blank">
+                        <button class="view-btn">👁️ View</button>
+                    </a>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="card-header">
+                        <img src="./Images/download.png" class="platform-logo" alt="">
+                        <span class="platform">FreeCodeCamp</span>
+                        <span class="icon">📄🏅</span>
+                    </div>
+                    <p class="certificate-title">JavaScript Algorithms and Data Structures</p>
+                    <a href="https://freecodecamp.org/certification/RJUmair/javascript-algorithms-and-data-structures-v8"
+                        target="_blank">
+                        <button class="view-btn">👁️ View</button>
+                    </a>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="card-header">
+                        <img src="./Images/alison.png" class="platform-logo" alt="">
+                        <span class="platform custom-platform-alison">Alison</span>
+                        <span class="icon">📄🏅</span>
+                    </div>
+                    <p class="certificate-title">Figma Design Basics and Features</p>
+                    <a href="https://alison.com/shop" target="_blank">
+                        <button class="view-btn">👁️ View</button>
+                    </a>
+                </div>
+
+            </div>
+            </div>
+        </section>
+
+        <section class="skills-section" id="skills">
+            <h2 class="skills-heading">Skills</h2>
+
+            <div class="subsection">
+                <h3>Design Tools I Use</h3>
+                <div class="tools">
+                    <div class="tool">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" />
+                        Figma
+                    </div>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h3>Technologies I Use</h3>
+                <div class="tools">
+                    <div class="tool">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+                            alt="HTML5" />
+                        HTML5
+                    </div>
+                    <div class="tool">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+                            alt="CSS3" />
+                        CSS3
+                    </div>
+                    <div class="tool">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+                            alt="JavaScript" />
+                        JavaScript
+                    </div>
+                    <div class="tool">
+                        <img src="https://www.vectorlogo.zone/logos/jquery/jquery-icon.svg" alt="jQuery" />
+                        jQuery
+                    </div>
+                    <div class="tool">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg" alt="SCSS" />
+                        SCSS
+                    </div>
+                    <div class="tool">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+                            alt="Bootstrap" />
+                        Bootstrap
+                    </div>
+                    <div class="tool">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="ReactJS" />
+                        ReactJS
+                    </div>
+                    <div class="tool">
+                        <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt="Redux" />
+                        Redux
+                    </div>
+                    <div class="tool">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Firebase_Logo.svg"
+                            alt="Firebase" />
+                        Firebase
+                    </div>
+                    <div class="tool">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+                            alt="Tailwind CSS" />
+                        Tailwind CSS
+                    </div>
+                    <div class="tool">
+                        <img src="https://v4.mui.com/static/logo.png" alt="Material UI" />
+                        Material UI
+                    </div>
+                    <div class="tool">
+                        <img src="https://raw.githubusercontent.com/chakra-ui/chakra-ui/main/media/logo-colored.svg"
+                            alt="Chakra UI" />
+                        Chakra UI
+                    </div>
+                    <div class="tool">
+                        <img src="https://www.svgrepo.com/show/354322/semantic-ui.svg" alt="Semantic UI" />
+                        Semantic UI
+                    </div>
+                    <div class="tool">
+                        <img src="https://www.svgrepo.com/show/332221/ant-design.svg" alt="Ant Design" />
+                        Ant Design
+                    </div>
+                    <div class="tool">
+                        <img src="https://avatars.githubusercontent.com/u/20658825?s=200&v=4" alt="Styled Components" />
+                        Styled Components
+                    </div>
+                    <div class="tool">
+                        <img src="https://avatars.githubusercontent.com/u/71013363?s=200&v=4" alt="React Query" />
+                        React Query
+                    </div>
+                    <div class="tool">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg" alt="Git" />
+                        Git
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="dev-prod-container">
+            <h2>DEVELOPMENT & PRODUCTIVITY<br><span>TOOLS I USE</span></h2>
+
+            <div class="tools">
+                <div class="tool"><img src="https://img.icons8.com/color/48/visual-studio-code-2019.png" />Visual Studio
+                    Code</div>
+                <div class="tool"><img src="https://img.icons8.com/color/48/gitlab.png" />Gitlab</div>
+                <div class="tool"><img src="https://img.icons8.com/ios-filled/50/github.png" />Github</div>
+                <div class="tool"><img src="/Images/postman-icon.png" />Postman</div>
+            </div>
+
+            <button class="resume-btn">
+                <span>⬇</span> Resume
+            </button>
+        </section>
+
+        <section class="projects-container" id="projects">
+            <h2 class="section-title">Projects I’ve <span>Worked on</span></h2>
+
+            <div class="project-card" id="card1">
+                <div class="project-image">
+                    <img src="/Images/1.png" alt="ecommerce Preview" />
+                    <img src="/Images/2.png" alt="ecommerce Preview" />
+
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Ecommerce<span> FrontEnd Design</span></h3>
+                    <p class="worked-on">Worked on</p>
+                    <div class="tags">
+                        <span class="tag">Website</span>
+                        <span class="tag">Admin Panel</span>
+                    </div>
+
+                    <p class="tech-used">Technologies I have used</p>
+                    <div class="tech-stack">
+                        <span class="tech">Javascript</span>
+                        <span class="tech">Bootstrap</span>
+                        <span class="tech">SCSS</span>
+                        <span class="tech">CSS</span>
+                        <span class="tech">HTML</span>
+                        <span class="tech">GIT</span>
+                    </div>
+
+                    <a class="visit-btn" href="https://ecommerce-frontend-design-kappa.vercel.app/index.html"
+                        target="_blank">
+                        <span class="icon">🔗</span> Go to Website
+                    </a>
+                </div>
+            </div>
+            <div class="project-card" id="card2">
+                <div class="project-image">
+                    <img src="/Images/12.png" alt="clock Preview" />
+                    <img src="/Images/13.png" alt="clock Preview" />
+
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Clock<span> Timer</span></h3>
+                    <p class="worked-on">Worked on</p>
+                    <div class="tags">
+                        <span class="tag">FrontEnd Design</span>
+                        <span class="tag">Admin Panel</span>
+                    </div>
+
+                    <p class="tech-used">Technologies I have used</p>
+                    <div class="tech-stack">
+                        <span class="tech">Javascript</span>
+                        <span class="tech">Bootstrap</span>
+                        <span class="tech">SCSS</span>
+                        <span class="tech">CSS</span>
+                        <span class="tech">HTML</span>
+                        <span class="tech">GIT</span>
+                    </div>
+
+                    <a class="visit-btn" href="https://clock-25-5-five.vercel.app/" target="_blank">
+                        <span class="icon">🔗</span> Go to Website
+                    </a>
+                </div>
+            </div>
+
+            <button id="github-btn"><img src="https://img.icons8.com/ios-filled/50/github.png" />See Github</button>
+        </section>
+
+        <section class="connect-container">
+            <h2 class="connect-title">Connect With Me</h2>
+
+            <div class="social-links">
+                <a href="#" class="social-btn linkedin">
+                    <img src="https://img.icons8.com/ios-filled/50/0077B5/linkedin.png" alt="LinkedIn Icon" />
+                    LinkedIn
+                </a>
+
+                <a href="#" class="social-btn instagram">
+                    <img src="https://img.icons8.com/ios-filled/50/E4405F/instagram-new.png" alt="Instagram Icon" />
+                    Instagram
+                </a>
+
+                <a href="#" class="social-btn facebook">
+                    <img src="https://img.icons8.com/ios-filled/50/1877F2/facebook-new.png" alt="Facebook Icon" />
+                    Facebook
+                </a>
+
+                <a href="#" class="social-btn telegram">
+                    <img src="https://img.icons8.com/ios-filled/50/229ED9/telegram-app.png" alt="Telegram Icon" />
+                    Telegram
+                </a>
+
+                <a href="#" class="social-btn twitter">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/twitterx--v1.png" alt="Twitter Icon" />
+                    Twitter
+                </a>
+
+                <a href="#" class="social-btn skype">
+                    <img src="https://img.icons8.com/ios-filled/50/00AFF0/skype.png" alt="Skype Icon" />
+                    Skype
+                </a>
+
+                <a href="mailto:umairajput711@gmail.com" class="social-btn email">
+                    <img src="https://img.icons8.com/ios-filled/50/EA4335/gmail-new.png" alt="Gmail Icon" />
+                    umairajput711@gmail.com
+                </a>
+            </div>
+            <img src="/Images/myself.png" alt="">
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact-container">
+                <h2>Contact Me</h2>
+                <form>
+                    <div class="form-row">
+                        <input type="text" placeholder="Full Name *" required>
+                        <input type="email" placeholder="Email *" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="tel" placeholder="Mobile No.">
+                        <input type="text" placeholder="Subject *" required>
+                    </div>
+                    <div class="form-row full">
+                        <textarea placeholder="Message *" required></textarea>
+                    </div>
+                    <div class="form-row full">
+                        <button type="submit">
+                            Send <span class="arrow">➤</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <img src="/Images/Adobe Express - file.png" alt="">
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,982 @@
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+body {
+    font-size: 8px;
+ }
+ #background-img {
+    width: 100%;
+    display: block;
+    margin-top: 150px;
+}
+
+.header-container {
+    width: 80%;
+    margin-top: 300px;
+    margin-left: -10px;
+    flex-wrap: wrap;
+    height: 40px;
+    position: absolute;
+    top: -290px;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logo-circle {
+    font-size: 13px;
+    width: 30px;
+    height: 30px;
+    margin-top: -4px;
+    margin-left: -15px;
+ }
+
+.nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+    margin-top: -8px;
+  }
+
+#Introduction {
+    position: relative;
+    top: -330px;
+    left: -105px;
+    width: 500px;
+}
+
+.hand-emoji {
+    position: relative;
+    top: -5px;
+    left: 15px;
+}
+#Introduction h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    margin-left: -50px;
+    /* Yellow for the name */
+}
+#Introduction p.profession {
+    font-size: 1.0em;
+    margin-bottom: 22px;
+    margin-top: -13px;
+    margin-left: -10px;
+}
+
+#Introduction p.experience {
+    font-size: 1.0em;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.highlight {
+    background-color: #333;
+    color: rgb(255, 195, 28);
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 0 5px;
+}
+
+.hand-emoji {
+    font-size: 2em;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#resume {
+    padding: 5px 12px;
+    font-size: 0.4rem;
+    margin-left: 180px;
+}
+
+#hire-me {
+    font-size: 0.4rem;
+    margin-left: 255px;
+    margin-top: -20px;
+    padding: 5px 12px;
+}
+
+#circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #ffc107;
+    position: relative;
+    top: -830px;
+    left: 55px;
+}
+
+#circle img {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: -30px;
+    left: 0;
+}
+
+#About {
+    height: 700px;
+    width: 1352px;
+    position: relative;
+    top: -860px;
+ }
+#About h2 {
+    color: #FFD700;
+    font-size: 32px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    text-shadow:
+        -1px -1px 0 #ffffff,
+        3px -1px 0 #ffffff,
+        -1px -1px 0 #e2dcdc,
+        -1px -1px 0 #c9c9c9;
+}
+
+/* Style for the container of the profile picture and "I Love" section */
+.profile-love-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Style for the circular profile picture container */
+.profile-picture-container {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 70px;
+    margin-left: 85px;
+    height: 70px;
+}
+
+/* Style for the profile picture image */
+.profile-picture-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Style for the "I Love" text */
+.i-love-text {
+display: none;
+}
+/* Style for the container of the interest tags */
+.interests-container {
+    display: none;
+}
+
+/* Style for the container of the experience and project stats */
+.stats-container {
+    display: grid;
+    gap: 30px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+/* Style for each individual stat box */
+.stat-box {
+    background-color: #2C2C2C;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 8px 20px white;
+    text-align: center;
+    width: 150px;
+}
+
+/* Style for the numbers in the stat boxes */
+.stat-number {
+    color: #FFD700;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Style for the labels in the stat boxes */
+.stat-label {
+    font-size: 0.9em;
+    margin: 0;
+}
+
+#description {
+    background-color: #1E1E1E;
+    /* Dark background */
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 12px;
+    width: 180px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    margin-top: 25px;
+    /* Adjust as needed for spacing */
+}
+
+#description p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 1.1em;
+    /* Adjust font size as needed */
+}
+
+#About button {
+    background: rgb(29, 29, 29);
+    color: #000;
+    border: none;
+    color: rgb(255, 217, 50);
+    border: 1px solid rgb(255, 217, 50);
+    border-radius: 25px;
+    padding: 8px 22px;
+    cursor: pointer;
+    margin-left: 45px;
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+#description button:hover {
+    background: linear-gradient(90deg, #B8860B 0%, #FFD700 100%);
+    /* Reverse gradient on hover */
+}
+
+#description button img {
+    width: 20px;
+    /* Adjust icon size as needed */
+    height: 20px;
+}
+
+ .education-container {
+    width: 100%;
+    background-color: #000000;
+    margin-top: -750px;
+    min-height: 75vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.education-title {
+    font-size: 42px;
+    font-weight: bold;
+    color: #f59e0b;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    text-shadow:
+        -1px -1px 0 #ffffff,
+        3px -1px 0 #ffffff,
+        -1px -1px 0 #e2dcdc,
+        -1px -1px 0 #c9c9c9;
+}
+
+.education-cards {
+    display: grid;
+    /* Changed to column initially for mobile */
+    gap: 1.7rem;
+    height: 300px;
+    margin: 80px 10px;
+    width: 100%;
+    /* Ensure cards take up full width of container */
+}
+
+.education-card {
+    border-radius: 1.65rem;
+    background: linear-gradient(to bottom, #e0e1e4, #2c4669);
+    /* Gradient background */
+    box-shadow: 0 4px 8px rgba(239, 255, 90, 0.5);
+    padding: 1.5rem;
+    width: 210px;
+    transition: transform 0.3s ease;
+}
+
+.education-card:hover {
+    transform: scale(1.03);
+}
+
+.date-badge {
+    background-color: #000000;
+    color: #ffae00;
+    border-radius: 3rem;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100px;
+    margin: -13px 10px;
+    padding-left: 50px;
+}
+
+.education-card img {
+    display: none;
+}
+
+.degree-level {
+    color: #d1d5db;
+}
+
+.degree-level img {
+  display: none;
+}
+
+.degree-title {
+    font-size: 0.951rem;
+    font-weight: bold;
+    color: #000000;
+    background-color: white;
+    padding: 6px 15px;
+    margin-top: 20px;
+    height: 20px;
+    border-radius: 30px;
+    width: 180px;
+    margin-left: -10px;
+}
+#degree-title {
+    width: 125px;
+}
+
+.degree-type {
+    display: none;
+}
+
+#degree-type {
+    margin-left: 205px;
+}
+
+.education-card p {
+    color: rgb(8, 8, 8);
+    position: relative;
+    font-size: 0.715rem;
+    top: 0;
+    left: 10px;
+}
+
+.university-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+    margin-top: 0.5rem;
+}
+
+#university-info {
+    margin-left: -18px;
+}
+
+.university-logo {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 9999px;
+    margin-top: -42px;
+    margin-left: -30px;
+}
+
+#university-name {
+    color: #000000;
+    font-size: 0.715rem;
+    position: relative;
+    left: -16px;
+    top: -4px;
+}
+
+#university-name {
+    margin-left: -1px;
+}
+
+.location {
+    color: #9ca3af;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+.location img {
+    position: relative;
+    left: -10px;
+    top: 8px;
+
+}
+
+.experience-container {
+    background-color: #000000;
+    /* Dark background */
+    padding: 80px 0;
+    /* Vertical padding */
+    display: flex;
+    margin-top: 250px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience-header {
+    font-size: 42px;
+    /* Large header */
+    font-weight: 700;
+    /* Bold font */
+    color: #f59e0b;
+
+    /* Very light gray text */
+    margin-top: -160px;
+    margin-bottom: 50px;
+    /* Space below the header */
+    text-align: center;
+    /* Center the header */
+    font-family: 'Inter', sans-serif;
+    text-shadow:
+        -1px -1px 0 #ffffff,
+        3px -1px 0 #ffffff,
+        -1px -1px 0 #e2dcdc,
+        -1px -1px 0 #c9c9c9;
+}
+
+/* Card 1 */
+.experience-card1 {
+    background-color: whitesmoke;
+    /* Darker card background */
+    border-radius: 16px;
+    /* Rounded corners */
+    padding: 40px;
+    /* Padding inside the card */
+    width: 65%;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+    /* Shadow for depth */
+    display: flex;
+    /* Use flexbox for layout inside the card */
+    flex-direction: column;
+    height: 275px;
+    /* Stack items vertically by default */
+    /* Align items to the start (top in column direction) */
+    margin-bottom: 20px;
+    /* Space below the card */
+    font-family: 'Inter', sans-serif;
+}
+
+.company-info1 {
+    display: flex;
+    /* Use flexbox for company info and date */
+    align-items: center;
+    /* Vertically align items */
+    margin-top: -20px;
+    /* Space below company info */
+    width: 100%;
+    /* Ensure full width for proper spacing */
+}
+
+#company-logo1 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: -5px;
+    top: -25px;
+    z-index: 1;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.company-name-location1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+    font-size: 0.587rem;
+    border-radius: 60px;
+    width: 100%;
+    max-width: 520px; /* updated */
+    box-sizing: border-box;
+    margin-left: -50px;
+    margin-right: auto;
+    margin-top: -50px;
+    height: 50px;
+    padding: 6px 66px 12px 60px; /* reserve space for logo inside */
+    position: relative;
+}
+
+
+.company-name1 {
+    font-size: 12px;
+    /* Company name size */
+    width: 150px;
+    font-weight: 600;
+    /* Medium font weight */
+    color: #ffe346;
+    /* Light text color */
+}
+
+.company-location1 {
+    font-size: 12px;
+    /* Location size */
+        width: 150px;
+    color: #ffffff;
+    /* Grayish text color */
+}
+
+.date-range1 {
+    font-size: 12px;
+    /* Date range size */
+    color: #000000;
+    margin-top: 60px;
+    margin-left: -180px;
+    position: relative;
+    left: -10px;
+    font-weight: bold;
+    /* Lighter gray text */
+    background-color: #9088ff;
+    /* Darker background for date */
+    padding: 8px 12px;
+    /* Padding for the date */
+    border-radius: 20px;
+    /* Rounded corners for date */
+    white-space: nowrap;
+    /* Prevent date from wrapping */
+}
+
+.job-title1 {
+    font-size: 15px;
+    /* Job title size */
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* Medium font weight */
+    color: #000;
+    width: 250px;
+    position: relative;
+    left: -25px;
+    /* White text color */
+    margin-bottom: 20px;
+    /* Space below job title */
+}
+
+.job-description1 {
+    font-size: 16px;
+    /* Job description size */
+    color: #cbd5e0;
+    /* Grayish text */
+    line-height: 1.7;
+    /* Increased line height for readability */
+    margin-bottom: 15px;
+}
+
+.job-description-points1 {
+    margin-left: -30px;
+    /* Indentation for the list */
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.job-description-points1 li::before {
+    content: '▶';
+    /* Bullet symbol */
+    color: #6ee7b7;
+    /* Teal color */
+    margin-right: 10px;
+    /* Space before the bullet */
+}
+
+.job-description-points1 li {
+    margin-bottom: 15px;
+    list-style: none;
+    width: 250px;
+    text-align: left;
+}
+
+/* Card 2 */
+.experience-card2 {
+    background-color: whitesmoke;
+    /* Darker card background */
+    border-radius: 16px;
+    /* Rounded corners */
+    padding: 40px;
+    /* Padding inside the card */
+    width: 65%;
+    height: 275px;
+    /* Card width */
+    /* Maximum card width */
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+    /* Shadow for depth */
+    display: flex;
+    /* Use flexbox for layout inside the card */
+    flex-direction: column;
+    /* Stack items vertically by default */
+    align-items: flex-start;
+    /* Align items to the start (top in column direction) */
+    margin-bottom: 20px;
+    /* Space below the card */
+    font-family: 'Inter', sans-serif;
+}
+
+.company-info2 {
+    display: flex;
+    /* Use flexbox for company info and date */
+
+    align-items: center;
+    /* Vertically align items */
+    margin-bottom: 25px;
+    /* Space below company info */
+    width: 100%;
+    /* Ensure full width for proper spacing */
+}
+
+#company-logo2 {
+    width: 50px;
+    height: 49px;
+    margin-left: -20px;
+    z-index: 1;
+    margin-top: -40px;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.company-name-location2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+    font-size: 0.587rem;
+    border-radius: 60px;
+    width: 120%;
+    max-width: 520px; /* updated */
+    box-sizing: border-box;
+    margin-left: -50px;
+    margin-right: auto;
+    margin-top: -40px;
+    height: 50px;
+    padding: 6px 66px 12px 55px; /* reserve space for logo inside */
+    position: relative;
+}
+
+
+.company-name2 {
+    font-size: 12px;
+    /* Company name size */
+    width: 150px;
+    font-weight: 600;
+    /* Medium font weight */
+    color: #ffe346;
+    /* Light text color */
+}
+
+.company-location2 {
+    font-size: 12px;
+    /* Location size */
+        width: 150px;
+    color: #ffffff;
+    /* Grayish text color */
+}
+
+.date-range2 {
+    font-size: 12px;
+    /* Date range size */
+    color: #000000;
+    font-weight: bold;
+    /* Lighter gray text */
+    background-color: #9088ff;
+    /* Darker background for date */
+    padding: 8px 12px;
+    position: relative;
+    top: 30px;
+    left: -215px;
+    /* Padding for the date */
+    border-radius: 20px;
+    /* Rounded corners for date */
+    white-space: nowrap;
+    /* Prevent date from wrapping */
+}
+
+.job-title2 {
+    font-size: 14px;
+    /* Job title size */
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* Medium font weight */
+    color: #000;
+    margin-top: 20px;
+    margin-left: -15px;
+    width: 220px;    
+    margin-bottom: 20px;
+    /* Space below job title */
+}
+
+.job-description2 {
+    font-size: 16px;
+    /* Job description size */
+    color: #cbd5e0;
+    /* Grayish text */
+    line-height: 1.7;
+    /* Increased line height for readability */
+    margin-bottom: 15px;
+}
+
+.job-description-points2 {
+    margin-left: -30px;
+    /* Indentation for the list */
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.job-description-points2 li::before {
+    content: '▶';
+    /* Bullet symbol */
+    color: #6ee7b7;
+    /* Teal color */
+    margin-right: 10px;
+    /* Space before the bullet */
+}
+
+.job-description-points2 li {
+    margin-bottom: 15px;
+    list-style: none;
+    width: 250px;
+    line-height: 10px;
+}
+
+/* Card 3 */
+
+.experience-card3 {
+    background-color: whitesmoke;
+    /* Darker card background */
+    border-radius: 16px;
+    /* Rounded corners */
+    padding: 40px;
+    /* Padding inside the card */
+    width: 65%;
+    /* Maximum card width */
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+    /* Shadow for depth */
+    display: flex;
+    height: 250px;
+    /* Use flexbox for layout inside the card */
+    flex-direction: column;
+    /* Stack items vertically by default */
+    align-items: flex-start;
+    /* Align items to the start (top in column direction) */
+    margin-bottom: 20px;
+    /* Space below the card */
+    font-family: 'Inter', sans-serif;
+}
+
+.company-info3 {
+    display: flex;
+    /* Use flexbox for company info and date */
+    align-items: center;
+    /* Vertically align items */
+    margin-bottom: 25px;
+    /* Space below company info */
+    width: 100%;
+    /* Ensure full width for proper spacing */
+}
+
+#company-logo3 {
+    width: 50px;
+    height: 50px;
+    margin-left: -20px;
+    z-index: 1;
+    margin-top: -40px;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.company-name-location3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+    font-size: 0.587rem;
+    border-radius: 60px;
+    width: 120%;
+    max-width: 520px; /* updated */
+    box-sizing: border-box;
+    margin-left: -50px;
+    margin-right: auto;
+    margin-top: -40px;
+    height: 50px;
+    padding: 6px 66px 12px 55px; /* reserve space for logo inside */
+    position: relative;
+}
+.company-name3 {
+    font-size: 12px;
+    /* Company name size */
+    font-weight: 600;
+    /* Medium font weight */
+    color: #ffe346;
+    /* Light text color */
+}
+
+.company-location3 {
+    font-size: 12px;
+    /* Location size */
+    width: 150px;
+    color: #ffffff;
+    ;
+    /* Grayish text color */
+}
+
+.date-range3 {
+    font-size: 12px;
+    /* Date range size */
+    color: #000000;
+    font-weight: bold;
+    /* Lighter gray text */
+    background-color: #9088ff;
+    /* Darker background for date */
+    padding: 8px 12px;
+    position: relative;
+    top: 32px;
+    left: -215px;
+    /* Padding for the date */
+    border-radius: 20px;
+    /* Rounded corners for date */
+    white-space: nowrap;
+    /* Prevent date from wrapping */
+}
+
+.job-title3 {
+    font-size: 13px;
+    /* Job title size */
+    font-weight: bold;
+    /* Medium font weight */
+    color: #000;
+    position: relative;
+    top: 20px;
+    left: -14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+    /* Space below job title */
+}
+
+.job-description3 {
+    font-size: 16px;
+    /* Job description size */
+    color: #cbd5e0;
+    /* Grayish text */
+    line-height: 1.7;
+    /* Increased line height for readability */
+    margin-bottom: 15px;
+}
+
+.job-description-points3 {
+    margin-top: 20px;
+    margin-left: -20px;
+    /* Indentation for the list */
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.job-description-points3 li::before {
+    content: '▶';
+    /* Bullet symbol */
+    color: #6ee7b7;
+    /* Teal color */
+    margin-right: 10px;
+    /* Space before the bullet */
+}
+
+.job-description-points3 li {
+    margin-bottom: 15px;
+    list-style: none;
+    width: 250px;
+}
+
+
+.section-title {
+    font-size: 42px;
+    font-weight: bold;
+    color: #f9b300;
+    margin-bottom: 30px;
+    text-shadow:
+        -1px -1px 0 #ffffff,
+        3px -1px 0 #ffffff,
+        -1px -1px 0 #e2dcdc,
+        -1px -1px 0 #c9c9c9;
+}
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* adds space between elements */
+    margin-bottom: 15px;
+    flex-wrap: wrap; /* optional: prevents overflow in small screens */
+}
+
+.card-header img {
+    display: none;
+}
+
+.platform {
+    background-color: #000;
+    color: #f9b300;
+    padding: 6px 15px;
+    border-radius: 25px;
+    font-weight: bold;
+    width: auto; /* let width adjust naturally */
+    margin-left: 0; /* reset negative margin */
+}
+
+.card-header > .icon {
+    display: none;
+}
+
+/* Skills Section */
+
+.skills-section {
+    background-color: #000000;
+    color: white;
+    padding: 40px 20px;
+    margin-top: -45px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.skills-heading {
+    font-size: 42px;
+    font-weight: bold;
+    color: #f9b300;
+    margin-bottom: 30px;
+    text-shadow:
+        -1px -1px 0 #ffffff,
+        3px -1px 0 #ffffff,
+        -1px -1px 0 #e2dcdc,
+        -1px -1px 0 #c9c9c9;
+}
+.tools {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.tool {
+    background-color: #c0c0c0;
+    border: 1px solid #444;
+    padding: 5px 15px;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.05);
+    transition: transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tool img {
+    width: 20px;
+    height: 20px;
+}
+
+
+}
+
+/* For phones (smaller screens) */
+@media (max-width: 480px) {
+body {
+    font-size: 8px;
+}
+}
