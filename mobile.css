@@ -89,10 +89,10 @@ body {
     /* Yellow for the name */
 }
 #Introduction p.profession {
-    font-size: 0.7em;
+    font-size: 0.6em;
     margin-bottom: 22px;
     margin-top: -13px;
-    margin-left: -2px;
+    margin-left: -3px;
 }
 
 #Introduction p.experience {
@@ -135,7 +135,7 @@ body {
     background-color: #ffc107;
     position: relative;
     top: -850px;
-    left: 95px;
+    left: 88px;
 }
 
 #circle img {
@@ -192,13 +192,13 @@ body {
 
 .skill-tailwind {
     top: 290px;
-    right: 998px;
-    width: 90px;
+    right: 1010px;
+    width: 100px;
 }
 
 .skill-js {
     top: 290px;
-    right: 1260px;
+    right: 1280px;
 }
 
 .skill-mongodb {
@@ -300,7 +300,7 @@ display: none;
     /* Dark background */
     border-radius: 10px;
     padding: 10px;
-    margin-left: -2px;
+    margin-left: -4px;
     width: 320px;
     font-family: sans-serif;
     color: #FFFFFF;
@@ -372,7 +372,7 @@ display: none;
     /* Changed to column initially for mobile */
     gap: 1.7rem;
     height: 300px;
-    margin: 80px 22px;
+    margin: 80px 20px;
     width: 100%;
     /* Ensure cards take up full width of container */
 }
